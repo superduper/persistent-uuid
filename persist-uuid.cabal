@@ -15,6 +15,5 @@ executable persist-uuid
      , bytestring
      , mtl
      , persistent
-     , persistent-postgresql
      , persistent-template
      , uuid
