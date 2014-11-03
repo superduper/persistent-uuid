@@ -1,9 +1,9 @@
 name:                persistent-uuid
-version:             0.1.0.0
-synopsis:            Persistent bindings for the Silk DB
+version:             0.1.0.1
+synopsis:            Persistent bindings for UUID type
 license:             PublicDomain
 author:              Adam Bergmark
-maintainer:          adam@silkapp.com
+maintainer:          Viktor Miroshnikov me@vmiroshnikov.com
 build-type:          Simple
 cabal-version:       >=1.8
 
