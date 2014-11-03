@@ -7,7 +7,7 @@
   , TemplateHaskell
   , TypeFamilies
   #-}
-module UUID where
+module Database.Persist.Types.UUID where
 
 import Database.Persist
 import Database.Persist.Sql
