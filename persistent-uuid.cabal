@@ -16,7 +16,7 @@ library
      , persistent
      , persistent-template
      , uuid
-  other-modules: Database.Persist.Postgresql.Types.UUID 
+  exposed-modules: Database.Persist.Postgresql.Types.UUID 
                , Database.Persist.Sqlite.Types.UUID 
 
 test-suite test
