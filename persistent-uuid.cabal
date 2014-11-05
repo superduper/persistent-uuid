@@ -16,11 +16,12 @@ library
      , persistent
      , persistent-template
      , uuid
-  exposed-modules: Database.Persist.Types.UUID 
+  other-modules: Database.Persist.Postgresql.Types.UUID 
+               , Database.Persist.Sqlite.Types.UUID 
 
 test-suite test
   type:          exitcode-stdio-1.0
-  main-is: Main.hs
+  main-is: test/Main.hs
   ghc-options: -Wall
   build-depends:
        base

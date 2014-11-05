@@ -1,0 +1,13 @@
+language: haskell
+
+ghc:
+ - 7.2
+ - 7.4
+ - 7.6
+ - 7.8
+
+before_install:
+    - cabal install --only-dependencies --enable-tests
+
+script:
+    - cabal test 
