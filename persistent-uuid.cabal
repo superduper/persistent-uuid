@@ -1,5 +1,5 @@
 name:                persistent-uuid
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            Persistent bindings for UUID type
 license:             PublicDomain
 author:              Adam Bergmark
