@@ -16,7 +16,7 @@ import qualified Data.ByteString.Char8 as B
 import qualified Data.UUID as UUID
 
 instance PersistField UUID.UUID where
-  toPersistValue u = PersistDbSpecific . B.pack . ("'" ++) . (++ "'") . UUID.toString $ u
+  toPersistValue u = PersistDbSpecific . B.pack . ("" ++) . (++ "") . UUID.toString $ u
 
   fromPersistValue (PersistDbSpecific t) = case UUID.fromString $ B.unpack t of
     Just x  -> Right x
