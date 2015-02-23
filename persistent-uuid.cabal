@@ -10,7 +10,7 @@ cabal-version:       >=1.8
 library 
   ghc-options: -Wall
   build-depends:
-       base
+       base >= 4.5
      , bytestring
      , mtl
      , persistent
